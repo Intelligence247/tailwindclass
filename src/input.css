@@ -4,7 +4,13 @@
 .nav-link span {
   @apply text-blue-400 text-xl px-4;
 }
+
 .icons {
   @apply flex items-center gap-3;
 }
+
+.imgs img {
+  @apply w-[10rem] h-[10rem]
+}
+
 @tailwind utilities;
