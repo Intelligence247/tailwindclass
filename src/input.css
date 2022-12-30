@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+.wrapper {
+  @apply max-w-[85rem] m-auto
+}
+
 .nav-link span {
   @apply text-blue-400 text-xl px-4;
 }
@@ -11,6 +15,94 @@
 
 .imgs img {
   @apply w-[10rem] h-[10rem]
+}
+
+.daisy {
+  @apply p-[1rem] bg-[white] flex flex-col w-[18rem] h-[22.25rem]
+}
+
+.add {
+  @apply flex gap-2 text-primary
+}
+
+.bottom {
+  @apply flex justify-between mt-[2.5rem]
+}
+
+.bottom p:first-child {
+  @apply text-[#838383]
+}
+
+.emlysect1 {
+  @apply w-[23.56rem] h-[30rem] bg-[white]
+}
+
+.top {
+  @apply flex justify-between px-3 h-[4rem] items-center
+}
+
+.left {
+  @apply flex items-center gap-2
+}
+
+.emlybottom {
+  @apply flex items-center justify-between px-3 mt-[2rem]
+}
+
+.love {
+  @apply flex items-center gap-[0.15rem] text-[10px]
+}
+
+.loveye {
+  @apply flex items-center gap-4
+}
+
+.emlysect {
+  @apply px-20 flex justify-between pb-10
+}
+
+.atena {
+  @apply w-[24rem] flex justify-start bg-white p-[1rem] gap-3 text-[1.5rem] h-max
+}
+
+.atena img {
+  @apply w-[2rem] h-[2rem]
+}
+
+.stars {
+  @apply flex gap-2
+}
+
+.stars img {
+  @apply w-[1rem] h-[1rem]
+}
+
+.texts {
+  @apply flex flex-col gap-3
+}
+
+.texts p:first-child {
+  @apply font-[700]
+}
+
+.texts p:nth-child(2) {
+  @apply text-[#838383]
+}
+
+footer {
+  @apply bg-[#454545] p-20 text-white flex flex-col text-[1.2rem]
+}
+
+.all {
+  @apply flex justify-between
+}
+
+.second {
+  @apply flex gap-4 flex-col
+}
+
+.location {
+  @apply flex gap-2 items-center
 }
 
 @tailwind utilities;
