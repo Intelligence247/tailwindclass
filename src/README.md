@@ -1,5 +1,3 @@
-<!-- https://incandescent-gumdrop-caf2dc.netlify.app -->
-
 #  TailwindClass
 *An implementation of TailwindClass clone with html, css and TailWind-css*
 ## Prequisite
